@@ -1,0 +1,19 @@
+body, html {
+  margin: 0; padding: 0;
+  height: 100%; font-family: -apple-system, sans-serif;
+  background: #aac8e6;
+}
+#app {
+  display: flex; flex-direction: column;
+  height: 100vh; justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 2rem; margin-bottom: 20px;
+  color: #333;
+}
+.spotify-container {
+  border: 1px solid #888; border-radius: 12px;
+  background: #fff; padding: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
